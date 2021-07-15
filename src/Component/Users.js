@@ -7,7 +7,7 @@ function Users(props) {
     // const [users,setUsers]=useState([]);
     const {loading,error,users}=props;
 
-    useEffect(async () => {
+    useEffect(() => {
     //    try{
     //        let resp=await fetch("https://jsonplaceholder.typicode.com/users");
     //    let users=await resp.json();
